@@ -1,0 +1,491 @@
+/*navbar*/
+
+.nav {
+  background-color: #222222;
+  overflow: hidden;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+
+.liens {
+  float: right;
+  display: flex;
+  text-align: right;
+  margin-right: 150px;
+
+}
+
+.liens a {
+  text-decoration: none;
+  color: #A6A8A9;
+  font-size: 17px;
+  margin-right: 30px;
+ 
+
+
+}
+
+.logonav{
+	 margin-left: 100px;	
+
+}
+
+
+
+/*home*/
+
+body {
+    margin: 0;
+    
+
+}
+h1 {
+    margin-top: 0;
+    color: white;
+    font-family: 'Arvo';
+    text-align: center;
+    padding-top: 45px;
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 75px;
+}
+h2{
+ 	font-family: 'Arvo';
+    text-align: center;
+    color: #F74C3C;
+    font-size: 30px;
+    
+}
+
+hr{
+
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #F74C3C;
+    width: 140px;
+}
+
+.bar {
+    width: 100%;
+    height: 50px;
+    background-color:#222222;
+}
+
+.photo {
+    width: 100%;
+    height: 659px;
+    background-image: url(../images/hero-image.jpg);
+    margin-top: 0;
+}
+
+.photo p {
+    color: white;
+    font-family: 'Arvo';
+    font-size: 21px;
+    padding: 0 50px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-left: 22%;
+    padding-right: 22%;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-family: 'Helvetica';
+
+}
+
+.btn {
+    font-size: 36px;
+    padding: 10px 16px;
+    line-height: 1.40;
+    border-radius: 6px;
+    color: white;
+    background-color:#d9534f ;
+    border-color: #d43f3a;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.coode {
+    text-align: center;
+}
+.top{
+position: fixed;
+border: 1px solid transparent;
+font-size: 50px;
+cursor: pointer;
+vertical-align: middle;
+text-decoration: none;
+border-radius: 50%;
+color: #d43f3a;
+background-color: black ;
+border-color: #d43f3a;
+width: 50px;
+text-align: center;
+/*top: 1000px;
+left: 1500px;*/
+bottom: 0px;
+right: 0px;
+}
+
+
+
+/*who*/
+.academy{
+
+	display: flex;
+	margin-top: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.icon-academy{
+
+	width: 100%;
+	height: 45vh;
+	justify-content: center;
+
+	
+}
+
+/*get involved*/
+#get-involved{
+
+	background-color: #F5F5F5;
+	width: 100%;
+	height: 65vh;
+	
+}
+
+.get{
+
+	padding-top: 20px;
+
+}
+
+.user{
+	margin: auto;
+	padding: 16px;
+	border-radius: 50%;
+	background-color: black;
+	width: 70px;
+}
+i{
+	color: white;
+}
+
+.pen{
+
+	margin: auto;
+	padding: 16px;
+	border-radius: 50%;
+	background-color: black;
+	width: 70px;
+
+}
+
+.money{
+
+	margin: auto;
+	padding: 16px;
+	border-radius: 50%;
+	background-color: black;
+	width: 70px;
+
+}
+
+.all{
+
+
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-left: 15%;
+	margin-right: 12%;
+	
+}
+
+.fa-money-bill-alt{
+margin-left: -4px
+
+}
+
+h3{
+
+color: #F74C3C;
+font-size: 26px;
+
+
+
+}
+
+#get-involved p{
+
+	font-size: 21px;
+}
+
+.car1{
+
+	padding-right: 35px;
+	padding-left: 35px;
+}
+
+.card2{
+
+	padding-right: 35px;
+	padding-left: 35px;
+}
+
+.card3{
+
+	padding-right: 35px;
+	padding-left: 35px;
+
+}
+
+.btn2{
+
+	color: #e74c3c;
+	
+	border-radius: 4px;
+	font-weight: 400;
+	font-size: 14px;
+	background-color: white;
+	 cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+}
+
+
+
+
+
+
+
+/*footer*/
+
+footer{
+
+	height: 25vh;
+	width: 100%;
+	background-color: #F74C3C;
+}
+
+
+.imgmillion{
+
+	margin-left: 90px;
+	margin-top: 110px;
+	
+
+}
+
+#home {
+
+	font-size: 21px;
+	font-weight: 300;
+	text-align: center;
+	
+}
+.mas {
+
+	margin-left: 280px;
+	margin-right: 280px;
+	text-align: center;
+	font-size: 21px;
+	
+}
+
+@media screen and (max-width: 1199px){
+
+    .photo {    
+        height: 700px;  
+    }
+    
+    .photo p {    
+        font-size: 21px;    
+        margin-bottom: 30px;   
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 30px;   
+    }  
+
+    .btn {
+        font-size: 25px;
+    }
+    .mas {
+
+        margin-left: 150px;
+        margin-right: 150px;
+        text-align: center;
+        font-size: 21px; 
+    }
+    .all{
+        margin-left: 10%;
+        margin-right: 8%;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 991px){
+
+.all{
+
+     display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+
+#get-involved{
+
+     background-color: #F5F5F5;
+     width: 100%;
+     height: 130vh;
+        
+    }
+.card1{
+        padding-top: 30px;
+ }
+.card2{
+
+        padding-top: 30px;
+}
+.card3{
+    padding-top: 30px;
+
+}
+
+.imgmillion{
+
+	margin-left: 90px;
+	margin-top: 150px;
+	
+
+}
+.footer{
+    height: 10vh;
+}
+.top{
+    
+    
+    font-size: 30px;
+
+    border-radius: 50%;
+    
+    width: 30px;
+    
+    /*top: 1000px;
+    left: 1500px;*/
+    
+    }
+
+}
+@media screen and (max-width: 767px){
+
+    h1 {
+        padding-top: 30px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    
+    hr{
+        margin-bottom: 20px;
+        width: 120px;
+    }
+    
+    .btn {
+        font-size: 20px;
+        
+    }
+
+    #get-involved p{
+
+        font-size: 18px;
+        
+    }
+    #get-involved{
+        height: 150vh;
+
+    }
+
+    .mas{
+        margin-left: 0px;
+        margin-right: 0px;
+    
+    }
+
+.all{
+
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+
+.card1{
+    padding-top: 60px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.card2{
+
+    padding-top: 60px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.card3{
+    padding-top: 60px;
+    margin-right: 2px;
+    margin-left: 2px;
+
+}
+p{
+
+    margin-right: 2px;
+    margin-left: 2px;   
+}
+.btn {
+    font-size: 15px;
+   
+}
+
+.coode{
+    font-size: 15px;
+
+
+
+
+}
+
+.imgmillion{
+
+	margin-left: 0px;
+    margin-top: 150px;
+}
+.icon-academy{
+
+	height: 55vh;
+}
+
+}
